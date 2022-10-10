@@ -1,0 +1,82 @@
+.ExamContainer{
+    position: absolute;
+    top:10vh;
+    left:10vw;
+    width: 80vw;
+    height:70vh;
+    position: relative;
+    border: 2px solid #026BB0;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#Data{
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Red{
+    background-color: red;
+    z-index: 100;
+}
+.progressBar{
+    width: 30%;
+    margin: 0 auto ;
+    border: 2px solid #E51D74;
+    border-radius: 20px;
+}
+.Word{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-bottom: 2px solid #026BB0 ;
+    width: 400px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.Buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60vw;
+    margin-block: 40px;
+}
+
+.Buttons button{
+    border: 1px solid #026BB0;
+    border-radius: 20px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.SubmitDiv button{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: xx-large;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #026BB0;
+    color: white;
+}
+
+.SubmitDiv{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 45%;
+}
